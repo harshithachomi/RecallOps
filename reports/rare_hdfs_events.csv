@@ -1,0 +1,4 @@
+EventTemplate,count
+Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>,2
+<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>,1
+BLOCK* ask <*>:<*> to replicate blk_<*> to datanode(s) <*>:<*>,1
