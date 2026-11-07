@@ -54,8 +54,6 @@ This is where persistent agent memory becomes important. Hindsight provides the 
 
 It combines log processing, incident classification, root-cause analysis, persistent memory, and developer feedback in one application.
 
-RecallOps is an AI-powered incident response and prevention system.
-
 ![RecallOps Dashboard](assets/recallops-dashboard.png)
 
 Its workflow follows this sequence:
@@ -78,7 +76,6 @@ This workflow helps connect current troubleshooting with previously recorded eng
 ## System Architecture
 
 RecallOps follows a modular Python architecture with a Streamlit-based interface.
-RecallOps follows a modular Python architecture.
 
 ![RecallOps Architecture](assets/recallops-architecture.png)
 
@@ -98,7 +95,6 @@ flowchart TD
     C --> L["SQLAlchemy Database"]
     K --> L
     I --> M["Prevention Engine"]
-     ## System Architecture
 
 
 ```
@@ -134,7 +130,6 @@ The prevention engine analyzes available incident and dataset information to gen
 
 ## The Technical Story: Integrating Hindsight Memory
 
-The central feature of RecallOps is its integration with Hindsight.
 
 ![Hindsight Memory](assets/hindsight-memory.png)
 
@@ -209,7 +204,7 @@ Memory Retention
 Future Incident Investigation
 ```
 
-[Insert diagram of the RecallOps experience-learning lifecycle]
+
 
 This feedback loop allows incident knowledge to grow as developers investigate and resolve problems.
 
