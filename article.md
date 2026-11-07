@@ -25,6 +25,7 @@ We built **RecallOps** to address this problem. By integrating [Hindsight](https
 
 The goal is simple: turn previous incident knowledge into reusable operational intelligence.
 
+
 ---
 
 ## Why Traditional AI-Based Error Analysis Is Not Enough
@@ -49,11 +50,13 @@ This is where persistent agent memory becomes important. Hindsight provides the 
 
 ## Introducing RecallOps
 
-[Insert screenshot of the RecallOps incident analysis interface]
-
 **RecallOps** is an AI-powered incident response and prevention system designed to help engineering teams investigate software failures using historical incident knowledge.
 
 It combines log processing, incident classification, root-cause analysis, persistent memory, and developer feedback in one application.
+
+RecallOps is an AI-powered incident response and prevention system.
+
+![RecallOps Dashboard](assets/recallops-dashboard.png)
 
 Its workflow follows this sequence:
 
@@ -75,6 +78,9 @@ This workflow helps connect current troubleshooting with previously recorded eng
 ## System Architecture
 
 RecallOps follows a modular Python architecture with a Streamlit-based interface.
+RecallOps follows a modular Python architecture.
+
+![RecallOps Architecture](assets/recallops-architecture.png)
 
 ```mermaid
 flowchart TD
@@ -92,6 +98,9 @@ flowchart TD
     C --> L["SQLAlchemy Database"]
     K --> L
     I --> M["Prevention Engine"]
+     ## System Architecture
+
+
 ```
 
 ### Main Components
@@ -111,6 +120,7 @@ The investigation engine uses Groq inference with the `llama-3.3-70b-versatile` 
 **4. Hindsight Memory Engine**
 
 This component connects RecallOps to Hindsight memory banks. It handles memory retention, retrieval, and local fallback storage.
+ 
 
 **5. Database and Feedback Manager**
 
@@ -124,7 +134,9 @@ The prevention engine analyzes available incident and dataset information to gen
 
 ## The Technical Story: Integrating Hindsight Memory
 
-[Insert screenshot of Hindsight memory retrieval interface]
+The central feature of RecallOps is its integration with Hindsight.
+
+![Hindsight Memory](assets/hindsight-memory.png)
 
 The central feature of RecallOps is its integration with [Hindsight](https://hindsight.vectorize.io/).
 

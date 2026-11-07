@@ -13,6 +13,25 @@ RecallOps addresses this limitation through an experience-driven learning approa
 By integrating Hindsight long-term memory, RecallOps retains successful resolutions and unsuccessful approaches, enabling the system to learn from previous incidents and improve future recommendations.
 
 The platform also identifies recurring failure patterns and generates preventive recommendations to minimize repeated incidents.
+## Application Preview
+
+![RecallOps Dashboard](assets/recallops-dashboard.png)
+
+## Architecture
+
+![RecallOps Architecture](assets/recallops-architecture.png)
+
+## Hindsight Memory Integration
+
+![Hindsight Memory](assets/hindsight-memory.png)
+
+## Features
+
+- Incident detection
+- Root cause analysis
+- Persistent memory
+- Developer feedback
+- Prevention recommendations
 
 ### Key Features
 
