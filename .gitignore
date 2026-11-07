@@ -1,17 +1,15 @@
-# Environment variables and secrets
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 .env
 .env.*
+!.env.example
+.streamlit/secrets.toml
+.pytest_cache/
+.coverage
+*.log
 
-# Virtual environment
-venv/
-env/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# VS Code settings
-.vscode/
-
-# System files
-.DS_Store
+# Local databases and memory
+data/*.db
+data/*cache*.json
